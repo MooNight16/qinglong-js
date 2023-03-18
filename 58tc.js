@@ -3,6 +3,7 @@
     安卓貌似需要root才能捉到包，IOS随便捉
     多账号切换账号不能退出登录
 
+    cron:15 6-10,17 * * *
     ck变量：wbtcCookie
     值：PPU=UID=xxxx&UN=yyyy&...   多账号@隔开
 
