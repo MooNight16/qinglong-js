@@ -24,6 +24,7 @@ cookie格式unionid&secret
 */
 
 const $ = new Env("微信简单阅读");
+cron:44 9-20/2 * * *
 const notify = $.isNode() ? require('./sendNotify') : '';
 let envSplitor = ['@', '\n']
 let httpResult, httpReq, httpResp
