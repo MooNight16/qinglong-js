@@ -8,7 +8,7 @@
  批量查询任务暂时无法完成 
  感谢Wenmoux的爱妻查任务脚本 Wenmoux github地址:https://github.com/Wenmoux/checkbox 作者仅完善和修改
 */
-const $ = new Env("爱企查日常任务");
+const $ = new Env("爱企查日常任务1");
 const axios = require("axios");
 const notify = $.isNode() ? require("./sendNotify") : "";
 aqcookie = $.isNode() ? process.env.aqcCookies : "";
