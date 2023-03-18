@@ -126,9 +126,11 @@ async function start() {
         for (let adId of adIdList) await ExcitationAd(adId)
         await $.wait(3 * 1000);
 
+        /*
         console.log("\n开始 阅读文章");
         await ReadArticles();
         await $.wait(3 * 1000);
+        */
 
     }
 
