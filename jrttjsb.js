@@ -4,7 +4,7 @@
  *
  * 今日头条极速版
  *
- * cron 1-59/15 6-23 * * *  yml2213_javascript_master/jrttjsb.js
+ * cron 33 6-23/2 * * *  yml2213_javascript_master/jrttjsb.js
  *
  * 5-26     完成 签到  宝箱  睡觉  走路  吃饭 阅读(基本黑号)等任务 ,农场看情况加不加
  * 
