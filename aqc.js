@@ -1,14 +1,14 @@
 /*
  cron 38 8,16,21 * * * https://ghproxy.com/github.com/WindFgg/QuantumultX_Conf/blob/main/Scripts/aiqicha.js 爱企查日常任务
  下载地址：https://aiqicha.baidu.com/m/usercenter/inviteCode?uid=xlTM-TogKuTwvdzTq9EFdGvdxrmJpAANFgmd
-
+ cron:22 8,16,21 * * *
  手动抓取CK:https://passport.baidu.com/v2/?login 一个整个ck复制
  每天执行三次 可能有一些任务跑不完 如:高级搜索 浏览监控日报 属正常现象 (百度抽风)
  多账号请用@分割Cookie  格式:ck1@ck2@ck2 青龙变量aqcCookies qx和v2p暂时不可使用
  批量查询任务暂时无法完成 
  感谢Wenmoux的爱妻查任务脚本 Wenmoux github地址:https://github.com/Wenmoux/checkbox 作者仅完善和修改
 */
-const $ = new Env("爱企查日常任务");
+const $ = new Env("爱企查2");
 const axios = require("axios");
 const notify = $.isNode() ? require("./sendNotify") : "";
 aqcookie = $.isNode() ? process.env.aqcc : "";
