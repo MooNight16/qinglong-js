@@ -20,7 +20,7 @@ cookie格式unionid&secret
 建议第一轮读到第三篇文章
 建议定时半夜跑 凌晨跑了人太多
 容易黑
-cron:44 9-20/2 * * *
+cron:44 5-20/2 * * *
 */
 
 const $ = new Env("微信简单阅读");
