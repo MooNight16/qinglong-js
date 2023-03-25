@@ -5,7 +5,7 @@
  只需要PDDAccessToken值
  多账号@隔开 
  * 实现部分任务，随缘更新吧...
-     cron: 5 7* * *
+     cron: 5 7 * * *
 
     const $ = new Env("拼多多果园");
  */
