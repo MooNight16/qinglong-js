@@ -1,5 +1,5 @@
 /*
- cron 38 8,16,21 * * * https://ghproxy.com/github.com/WindFgg/QuantumultX_Conf/blob/main/Scripts/aiqicha.js 爱企查日常任务
+ cron 28 8,16,21 * * * https://github.com/MooNight16/qinglong-js/edit/main/aqc.js 爱企查2
  下载地址：https://aiqicha.baidu.com/m/usercenter/inviteCode?uid=xlTM-TogKuTwvdzTq9EFdGvdxrmJpAANFgmd
  手动抓取CK:https://passport.baidu.com/v2/?login 一个整个ck复制
  每天执行三次 可能有一些任务跑不完 如:高级搜索 浏览监控日报 属正常现象 (百度抽风)
