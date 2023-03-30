@@ -21,7 +21,7 @@ export zlcookie='抓到的token数值'
 export zlcookie='123xxx'
 
 多账号回车隔开
-cron:30 9-23/4 * * *
+cron:30 10-22/4 * * *
 
 脚本地址
 https://kireinasakura.coding.net/p/could/d/there/git/raw/master/zl.js
