@@ -18,6 +18,7 @@ export TxStockCookie='openid=xx&fskey=yy&wzq_qlskey=zz&wzq_qluin=aa'
 V2P，圈X重写：
 打开APP和小程序自动获取
 小程序入口：公众号 腾讯自选股微信版->右下角好福利->福利中心
+cron:35 11,16 * * *
 [task_local]
 #腾讯自选股
 35 11,16 * * * https://raw.githubusercontent.com/leafxcy/JavaScript/main/txstockV2.js, tag=腾讯自选股, enabled=true
