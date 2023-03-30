@@ -17,7 +17,7 @@ export ksCookie='kuaishou.api_st=xxxxxxxxxxxx; did=yyyyyyyyyyy;'
 设置变量ksNotify为0/1/2可以控制不通知/提现时间通知/每次运行都通知，默认提现时间通知
 
 定时一天最少10次(一般10次能做完任务)，最好改掉默认时间，不然太多人同一时间跑
-cron: 47 7-18 * * *
+cron: 47 7-23 * * *
 
 const $ = new Env("快手");
 重写：
